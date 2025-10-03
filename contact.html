@@ -34,7 +34,9 @@
       I will do my best to reply as soon as possible.
     </p>
 
-    <form>
+    <form name="contact" method="POST" data-netlify="true" action="/submission.html">
+      <input type="hidden" name="form-name" value="contact">
+
       <label for="cname">Name:</label>
       <input id="cname" type="text" name="name" required><br><br>
 

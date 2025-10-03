@@ -104,7 +104,8 @@
 
     <section>
       <h2>Newsletter Signup</h2>
-      <form>
+      <form name="newsletter" method="POST" data-netlify="true" action="/submission.html">
+        <input type="hidden" name="form-name" value="newsletter">
         <label for="name">Name:</label>
         <input id="name" type="text" name="name"><br><br>
         <label for="email">Email:</label>
